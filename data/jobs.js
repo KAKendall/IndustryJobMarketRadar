@@ -1,0 +1,31 @@
+window.RADAR_DATA = {
+  lastChecked: "2026-09-22",
+  jobs: [
+    {id:"amazon-10497379",title:"Principal Economist, Amazon Leo, Plans & Pricing",company:"Amazon",location:"Bellevue, WA",track:"Tech and platforms",fields:["Economics","Marketing","Strategy and Management"],skills:["Pricing","Choice models","Experimentation","Applied economics"],verified:"2026-09-22",url:"https://www.amazon.jobs/en/jobs/10497379/principal-economist-amazon-leo-plans-pricing",summary:"Define pricing frameworks, demand scenarios, and experiments for Amazon Leo services."},
+    {id:"amazon-10510781",title:"Principal Economist, Fulfillment by Amazon",company:"Amazon",location:"Bellevue, WA or Sunnyvale, CA",track:"Tech and platforms",fields:["Economics","Strategy and Management"],skills:["Causal inference","Market design","Machine learning","Experiments"],verified:"2026-09-22",url:"https://www.amazon.jobs/en/jobs/10510781/principal-economist-fulfillment-by-amazon",summary:"Design mechanisms and causal models for large-scale seller and supply-chain decisions."}
+  ],
+  companies: [
+    {name:"Amazon",track:"Tech and platforms",search:"Economist, pricing, operations, supply chain, analytics",url:"https://www.amazon.jobs/en/search?base_query=Economist"},
+    {name:"Google",track:"Tech and platforms",search:"Research data science, ads measurement, marketing science, strategy",url:"https://www.google.com/about/careers/applications/jobs/results/"},
+    {name:"Microsoft",track:"Tech and platforms",search:"Marketing measurement, analytics, experimentation, business strategy",url:"https://jobs.careers.microsoft.com/global/en/search"},
+    {name:"Uber",track:"Tech and platforms",search:"Applied science, marketing science, policy, pricing, marketplace economics",url:"https://www.uber.com/us/en/careers/list/"},
+    {name:"Apple",track:"Tech and platforms",search:"Applied AI, strategic modeling, product analytics, evaluation",url:"https://jobs.apple.com/en-us/search"},
+    {name:"OpenAI",track:"Tech and platforms",search:"Economics, policy, research, applied data",url:"https://openai.com/careers/search/"},
+    {name:"Analysis Group",track:"Economic and strategy consulting",search:"Economic consulting, data science, healthcare, finance, litigation",url:"https://www.analysisgroup.com/careers/"},
+    {name:"Mathematica",track:"Healthcare and policy research",search:"Health policy, program evaluation, public economics, quantitative research",url:"https://careers.mathematica.org/"},
+    {name:"IQVIA",track:"Healthcare and life sciences",search:"Evidence synthesis, health economics, outcomes research, life sciences",url:"https://jobs.iqvia.com/"},
+    {name:"RTI",track:"Healthcare and policy research",search:"Health policy, health services research, evaluation, population health",url:"https://globalcareers-rti-int.referrals.selectminds.com/"},
+    {name:"Deloitte",track:"Financial and accounting advisory",search:"Risk, forensic analytics, valuation, accounting advisory, strategy",url:"https://apply.deloitte.com/careers/SearchJobs"},
+    {name:"PwC",track:"Financial and accounting advisory",search:"Deals, assurance, accounting advisory, data and analytics",url:"https://jobs.us.pwc.com/search-jobs"},
+    {name:"EY",track:"Financial and accounting advisory",search:"Strategy, transaction advisory, risk, analytics, accounting",url:"https://careers.ey.com/"},
+    {name:"KPMG",track:"Financial and accounting advisory",search:"Data analytics, risk, tax, audit, advisory",url:"https://www.kpmguscareers.com/search-jobs/"}
+  ],
+  fieldGuide: [
+    {field:"Economics",terms:"Economist · applied scientist · pricing · marketplace economics · forecasting · causal inference"},
+    {field:"Marketing",terms:"Marketing scientist · ads measurement · consumer insights · growth analytics · experimentation"},
+    {field:"Organizational Behavior",terms:"People analytics · organizational research · workforce strategy · talent analytics"},
+    {field:"Strategy and Management",terms:"Corporate strategy · decision science · business research · transformation"},
+    {field:"Health Policy",terms:"Health economist · health services researcher · program evaluator · evidence synthesis"},
+    {field:"Accounting",terms:"Forensic analytics · valuation · risk advisory · transaction services · financial reporting analytics"}
+  ]
+};
