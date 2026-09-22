@@ -21,5 +21,5 @@ jobs:
         with:
           script: |
             const title = `Job audit needs review — ${new Date().toISOString().slice(0,10)}`;
-            const existing = await github.rest.issues.listForRepo({owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'job-audit'});
-            if (!existing.data.length) await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, body: 'One or more listed jobs could not be confirmed on the employer site. Run `python scripts/audit_jobs.py`, remove closed roles from `data/jobs.js`, and add newly verified roles from the employer watchlist.', labels:['job-audit']});
+            const existing = await github.rest.issues.listForRepo({owner: context.repo.owner, repo: context.repo.repo, state: 'open'});
+            if (!existing.data.some(issue => issue.title.startsWith('Job audit needs review'))) await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, body: 'One or more listed jobs could not be confirmed on the employer site. Run `python scripts/audit_jobs.py`, remove closed roles from `data/jobs.js`, and add newly verified roles from the employer watchlist.'});
