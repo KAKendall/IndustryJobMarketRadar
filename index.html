@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Industry opportunities for business PhDs, refreshed twice weekly.">
+  <title>Industry Job Market Radar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav><a class="brand" href="#top">Industry Job Market Radar</a><a href="#employers">Employer watchlist</a><a href="#guide">Search guide</a></nav>
+    <div class="hero-grid">
+      <div><p class="eyebrow">Beyond academia</p><h1>Find where business research skills matter.</h1><p class="lede">A curated radar for business PhDs exploring economics, data science, strategy, people analytics, healthcare research, and advisory work.</p></div>
+      <div class="pulse"><span>Refresh cadence</span><strong>Twice weekly</strong><small id="lastChecked">Last checked —</small></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats" aria-label="Market summary">
+      <div><strong id="openCount">0</strong><span>verified openings</span></div>
+      <div><strong id="companyCount">0</strong><span>employers monitored</span></div>
+      <div><strong>6</strong><span>PhD fields mapped</span></div>
+    </section>
+
+    <section class="jobs-section">
+      <div class="section-head"><div><p class="eyebrow">Current openings</p><h2>Roles worth a closer look</h2></div><p>Only roles confirmed on an employer career site are shown as open.</p></div>
+      <div class="filters" aria-label="Job filters">
+        <label class="search"><span class="sr-only">Search jobs</span><input id="query" type="search" placeholder="Search title, skill, employer, or location"></label>
+        <label><span>PhD field</span><select id="field"><option value="">All fields</option></select></label>
+        <label><span>Employer track</span><select id="track"><option value="">All tracks</option></select></label>
+        <label><span>Sort</span><select id="sort"><option value="newest">Newest verified</option><option value="company">Employer A–Z</option></select></label>
+      </div>
+      <p class="result-line" id="resultLine" aria-live="polite"></p>
+      <div class="job-grid" id="jobs"></div>
+      <div class="empty" id="empty" hidden><h3>No matching openings</h3><p>Try a broader field or keyword, then check the employer watchlist below.</p></div>
+    </section>
+
+    <section class="watchlist" id="employers">
+      <div class="section-head"><div><p class="eyebrow">Employer watchlist</p><h2>Organizations to monitor</h2></div><p>Built from the supplied industry job options document.</p></div>
+      <div class="company-grid" id="companies"></div>
+    </section>
+
+    <section class="guide" id="guide">
+      <div><p class="eyebrow">Translate your expertise</p><h2>Search in employer language</h2><p>Lead with the decision, data and method, result, and action your research enabled. Use filters as a starting point, then adapt your résumé to the role family.</p></div>
+      <div class="field-grid" id="fieldGuide"></div>
+    </section>
+  </main>
+
+  <footer><p>Listings link to the employer’s own career site. Availability can change between checks.</p><a href="#top">Back to top</a></footer>
+  <script src="data/jobs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
