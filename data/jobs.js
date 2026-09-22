@@ -20,6 +20,7 @@ window.RADAR_DATA = {
     {name:"Boston Consulting Group",track:"Economic and strategy consulting",search:"Consultant, economist, data science, analytics, strategy, people analytics, BCG X",url:"https://careers.bcg.com/global/en/search-results/home"},
     {name:"Bain & Company",track:"Economic and strategy consulting",search:"Consultant, advanced degree, analytics, data, research, strategy, organizational performance",url:"https://www.bain.com/careers/find-a-role/"},
     {name:"Mathematica",track:"Healthcare and policy research",search:"Health policy, program evaluation, public economics, quantitative research",url:"https://careers.mathematica.org/"},
+    {name:"International Monetary Fund",track:"Policy and international organizations",search:"Economist, economist program, macroeconomics, financial economics, research, quantitative policy, data",url:"https://www.imf.org/en/about/recruitment/apply-now"},
     {name:"IQVIA",track:"Healthcare and life sciences",search:"Evidence synthesis, health economics, outcomes research, life sciences",url:"https://jobs.iqvia.com/"},
     {name:"RTI",track:"Healthcare and policy research",search:"Health policy, health services research, evaluation, population health",url:"https://globalcareers-rti-int.referrals.selectminds.com/"},
     {name:"Deloitte",track:"Financial and accounting advisory",search:"Risk, forensic analytics, valuation, accounting advisory, strategy",url:"https://apply.deloitte.com/careers/SearchJobs"},
