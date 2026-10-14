@@ -3,6 +3,13 @@ on:
   schedule:
     - cron: "0 13 * * 1,4"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/jobs.js"
+      - "scripts/audit_jobs.py"
+      - ".github/workflows/job-audit.yml"
 permissions:
   contents: read
   issues: write
