@@ -12,6 +12,7 @@ import urllib.request
 SOFT_404_DOMAINS = {
     "amazon.jobs",
     "apply.deloitte.com",
+    "careers.rti.org",
 }
 
 BROWSER_HEADERS = {
